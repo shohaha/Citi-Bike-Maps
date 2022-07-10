@@ -2,6 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+<!-- Navigation Bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNavDropdown">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="index.html" class="navbar-brand">Citi Bike</a>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://gbfs.citibikenyc.com/gbfs/en/station_information.json">Station Info Endpoint</a></li>
+      <li><a href="https://gbfs.citibikenyc.com/gbfs/en/station_status.json">Station Status Endpoint</a></li>
+    </ul>
+  </div>
+</nav>  <!-- End of Navigation Bar -->
+
   <title>Citi Bike</title>
 
   <!-- D3 library -->
@@ -44,6 +65,10 @@
 
   <!-- Our JavaScript file -->
   <script type="text/javascript" src="static/js/logic.js"></script>
+
+  <footer>
+    <div class="footer">&copy; Copyright: Shola Hargrave 2022</div>
+  </footer>
 
 </body>
 
