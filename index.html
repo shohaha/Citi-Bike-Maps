@@ -2,26 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Bootstrap and JQuery -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
  
-<!-- Navigation Bar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNavDropdown">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a href="index.html" class="navbar-brand">Citi Bike</a>
-  </div>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="nav navbar-nav navbar-right">
+  <!-- Navigation Bar -->
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="index.html">Citi Bike 🚲</a>
+      </div>
+      <nav>
+    <div class="nav-mobile">
+      <a id="nav-toggle" href="#!"><span></span></a>
+    </div>
+    <ul class="nav-list">
       <li><a href="index.html">Home</a></li>
-      <li><a href="https://gbfs.citibikenyc.com/gbfs/en/station_information.json">Station Info Endpoint</a></li>
-      <li><a href="https://gbfs.citibikenyc.com/gbfs/en/station_status.json">Station Status Endpoint</a></li>
+      <li>
+        <a href="#!">Data</a>
+        <ul class="nav-dropdown">
+          <li><a href="https://gbfs.citibikenyc.com/gbfs/en/station_information.json">Station Info Endpoint</a></li>
+          <li><a href="https://gbfs.citibikenyc.com/gbfs/en/station_status.json">Station Status Endpoint</a></li>
+        </ul>
+      </li>
     </ul>
-  </div>
-</nav>  <!-- End of Navigation Bar -->
+  </nav>
+      </div>
+  </section>
+<!-- End of Navigation Bar -->
 
   <title>Citi Bike</title>
 
@@ -53,7 +63,8 @@
   <link rel="stylesheet" href="static/css/leaflet.extra-markers.min.css">
 
   <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/main.css">
 
 
 </head>
@@ -65,6 +76,7 @@
 
   <!-- Our JavaScript file -->
   <script type="text/javascript" src="static/js/logic.js"></script>
+  <script type="text/javascript" src="static/js/style.js"></script>
 
   <footer>
     <div class="footer">&copy; Copyright: Shola Hargrave 2022</div>

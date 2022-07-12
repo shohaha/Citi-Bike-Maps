@@ -1,7 +1,7 @@
 html,
 body,
 #map-id {
-  height: 98%;
+  height: 95.5%;
   padding: 10;
   margin: 10;
 }
@@ -40,42 +40,17 @@ body,
 
 body
 {
-  background:#e6e6ff;
-}
-
-/* Navigation Bar */
-.navbar{
-  padding: 10px 30px 10px 0px;
-  background-color: #ffffff;
-  transition: all ease 0.4s;
-}
-.navbar-brand{
-  font-size: 22px;
-  color: #ababeb !important;
-}
-.navbar .navbar-nav li a{
-  font-size: 16px;
-  color: rgb(0, 0, 0);
-}
-
-/* Animation */
-.animate{
-  padding: 0px 10px 0px 0px;
-  transition: all ease 0.4s;
-}
-
-/* Jumbotron */
-.jumbotron{
-  margin-top: 100px;
+  background: snow;
 }
 
  /* Footer */
  footer{
-  background-color: #ababeb; 
+  background-color: DarkGoldenRod; 
+  opacity: 0.5;
   border-top-style: solid; 
   border-top-width: 2px; 
   border-top-color: #ffffff;
-  color: white; 
+  color: black; 
   min-height: 40px; 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px; 
@@ -86,3 +61,5 @@ body
   width: 100%;
   padding-top: 12px; 
   }
+
+  
