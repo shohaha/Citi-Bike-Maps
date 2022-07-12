@@ -1,7 +1,7 @@
 html,
 body,
 #map-id {
-  height: 95.5%;
+  height: 95%;
   padding: 10;
   margin: 10;
 }
@@ -58,7 +58,7 @@ body
   position: sticky;
   left: 0;
   bottom: 0;
-  width: 90%;
+  width: 100%;
   padding-top: 12px; 
   }
 
