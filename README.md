@@ -1,8 +1,10 @@
 # Citi-Bike-Maps
 
-In this activity, you’ll use the  Citi Bike API to get the status and location of every Citi Bike station in New York City. This activity also includes a bonus portion. Click [here](https://shohaha.github.io/Citi-Bike-Maps/) to view website.
+In this activity, I used the Citi Bike API to get the status and location of every Citi Bike station in New York City. This activity also includes a bonus portion. 
 
-## Preview of Website
+Click [here](https://shohaha.github.io/Citi-Bike-Maps/) to view completed project.
+
+## Preview of Project
 
 <img width="1190" alt="Screenshot 2022-07-12 at 21 23 58" src="https://user-images.githubusercontent.com/96545188/178588158-31e50022-7da2-46e0-ab03-446c21325607.png">
 
@@ -52,4 +54,4 @@ Try the following bonus activity for an extra challenge. Follow these steps:
 
 4. Add a legend to your map to explain the different markers. 
 
-5. Complete the app then edeploy it to GitHub Pages.
+5. Complete the app then deploy it to GitHub Pages.
