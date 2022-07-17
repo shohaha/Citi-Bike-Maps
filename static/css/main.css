@@ -74,7 +74,7 @@ nav ul li ul li a {
 
 .nav-dropdown {
   display: none;
-  position: auto;
+  position: relative;
   z-index: 1;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
@@ -114,7 +114,7 @@ nav ul li ul li a {
     padding-left: 30px;
   }
   .nav-dropdown {
-    position: static;
+    position: relative;
   }
 }
 #nav-toggle {
