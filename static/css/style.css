@@ -3,7 +3,8 @@ body,
 #map-id {
   height: 95%;
   padding: 10;
-  margin: 10;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .legend {
